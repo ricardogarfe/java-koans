@@ -44,7 +44,7 @@ public class AboutAssertions {
 
     @Koan
     public void assertEqualsWithAFewExpressions() {
-        assertEquals("Hello World!", __);
+        assertEquals("Hello World!", "Hello World!");
         assertEquals(1, 1);
         assertEquals(2 + 2, 4);
         assertEquals(2 * 3, 6);
