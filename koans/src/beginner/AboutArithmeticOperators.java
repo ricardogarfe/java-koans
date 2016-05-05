@@ -30,10 +30,10 @@ public class AboutArithmeticOperators {
     @Koan
     public void minusMinusVariableMinusMinus() {
         int i = 1;
-        assertEquals(--i, __);
-        assertEquals(i, __);
-        assertEquals(i--, __);
-        assertEquals(i, __);
+        assertEquals(--i, 0);
+        assertEquals(i, 0);
+        assertEquals(i--, 0);
+        assertEquals(i, -1);
     }
 
     @Koan
