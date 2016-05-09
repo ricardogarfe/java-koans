@@ -61,7 +61,7 @@ public class AboutConditionals {
             x--;
         }
         // Where does this else belong to!?
-        assertEquals(x, __);
+        assertEquals(x, 10);
     }
 
     @Koan
